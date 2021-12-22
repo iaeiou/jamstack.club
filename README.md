@@ -1,8 +1,30 @@
-# Jamstack Themes
+# Jamstack.club?
 
-A list of themes and starters for the Jamstack and static site generators. https://jamstackthemes.dev
+The [Jamstack.club](https://jamstack.club) is a collection of free Jamstack Themes for Hugo, Eleventy, Jekyll, Gatsby and [many other static-sites generators](https://jamstack.club/ssg).  
+Filter, sort, preview, and find the best Jamstack Theme for your next project!
 
-## Submit A Theme
+Now live at https://jamstack.club !
+
+
+## How does it work?
+
+Each theme is described in a Markdown file. (See [the Markdown file for the theme "Restaurant"](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).  
+The website is then build with [Hugo](https://gohugo.io) and [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) automates the creation of the Github stats and generate a screenshot.  
+A dedicated page is automatically created for each theme. See [the page for the theme "Restaurant"](https://jamstack.club/theme/hugo-restaurant/) for example.
+
+## Contribute
+
+Willing to help? Welcome aboard!
+There are many ways you can contribute to Jamstack.club
+
+Note that we value each contribution and we'll acknowledge you for your participation
+
+### Report a problem
+
+Found an issue?
+You can [submit a bug report](https://github.com/RoneoOrg/jamstack.club/issues), or [drop us an email](https://jamstack.club/contact/).
+We'll get back to you as soon as possible.
+### Submit A Theme
 
 Anyone can submit an open-source theme by adding a markdown file to the `content/theme` folder. 
 
