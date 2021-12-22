@@ -6,29 +6,29 @@ Filter, sort, preview, and find the best Jamstack Theme for your next project!
 Now live at https://jamstack.club !
 
 
-## How does it work?
-
-Each theme is described in a Markdown file. (See [the Markdown file for the theme "Restaurant"](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).  
-The website is then build with [Hugo](https://gohugo.io) and [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) automates the creation of the Github stats and generate a screenshot.  
-A dedicated page is automatically created for each theme. See [the page for the theme "Restaurant"](https://jamstack.club/theme/hugo-restaurant/) for example.
-
 ## Contribute
 
 Willing to help? Welcome aboard!
-There are many ways you can contribute to Jamstack.club
 
-Note that we value each contribution and we'll acknowledge you for your participation
+**There are many ways you can contribute to the Jamstack.club**
+
+**Note: We value each contribution** and, if you like to, we can acknowledge you using the [@allcontributors](https://github.com/all-contributors/all-contributors#readme) principles.
 
 ### Report a problem
 
-Found an issue?
-You can [submit a bug report](https://github.com/RoneoOrg/jamstack.club/issues), or [drop us an email](https://jamstack.club/contact/).
+**Found an issue?** You can [submit a bug report](https://github.com/RoneoOrg/jamstack.club/issues), or [drop us an email](https://jamstack.club/contact/).
+
 We'll get back to you as soon as possible.
 ### Submit A Theme
 
-Anyone can submit an open-source theme by adding a markdown file to the `content/theme` folder. 
+A theme must meet only two requirements to be submitted:
 
-1. Fork this repo and create a new markdown `.md` file in `content/theme` folder. For example `hugo-air.md`. Another option is to add a new file using the [Github UI](https://github.com/stackbit/jamstackthemes/tree/master/content/theme) _(click the "add file" button)_ 
+* The source code must be open-source and public
+* The demo URL links must point to a demo of the theme and not your personal or business site.
+
+Allright? Let's go!
+
+1. Fork this repo and create a new markdown `.md` file in `content/theme` folder. For example `hugo-air.md`. 
 2. Add the required front-matter as shown in the **Example Theme** below.
 3. Submit a pull request
 
@@ -66,10 +66,14 @@ This theme is a lightweight starter kit. It also gives you a well organised star
 * Progressively enhanced, semantic and accessible  
 ```
 
-## Contribution Guidelines
+## How does it work?
 
-* Any open source themes with a public github repo can be submitted.
-* Please make sure the demo URL links to a demo of the theme and not your personal or business site.
+Each theme is described in a Markdown file. (See [this example](https://raw.githubusercontent.com/RoneoOrg/jamstack.club/main/content/theme/hugo-restaurant.md) to get an idea).
+
+The website is then automatically build with [Hugo](https://gohugo.io) and [a few JS scripts](https://github.com/RoneoOrg/jamstack.club/tree/main/scripts) automates the creation of the Github stats and generate a screenshot.  
+A dedicated page is created for each theme, along with a Demo. See [the page for the theme "Restaurant"](https://jamstack.club/theme/hugo-restaurant/) for example.
+
+The index is updated, still automatically, and the website is published, hosted by [Netlify](https://www.netlify.com/).
 
 
 ## Develop Locally
